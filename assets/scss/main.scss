@@ -1,0 +1,24 @@
+@import 'primeflex/primeflex.css';
+
+@import 'components/toast';
+@import 'components/otp-input';
+@import 'layout/default';
+@import 'layout/error';
+@import 'layout/login';
+@import 'views/login';
+@import 'views/forgot-password';
+@import 'utilities/animations';
+@import 'utilities/transitions';
+@import 'vendors/primevue';
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif !important;
+  scroll-behavior: smooth;
+  .p-component {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 16px;
+  }
+}

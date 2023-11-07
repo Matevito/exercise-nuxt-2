@@ -1,0 +1,50 @@
+{
+  "name": "stack-front-bo",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Kubo S.A.S",
+  "scripts": {
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "dev:development": "cross-env ENV=development nuxt",
+    "dev:staging": "cross-env ENV=staging nuxt",
+    "dev:production": "cross-env ENV=production nuxt",
+    "generate:development": "cross-env ENV=development nuxt generate",
+    "generate:staging": "cross-env ENV=staging nuxt generate",
+    "generate:production": "cross-env ENV=production nuxt generate"
+  },
+  "dependencies": {
+    "@bachdgvn/vue-otp-input": "^1.0.8",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/i18n": "^7.3.1",
+    "cookie-universal-nuxt": "^2.1.4",
+    "core-js": "^3.9.1",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
+    "date-fns": "^2.21.1",
+    "js-cookie": "^3.0.1",
+    "nuxt": "^2.16.1",
+    "nuxt-client-init-module": "^0.3.0",
+    "primeflex": "^3.3.0",
+    "primeicons": "^6.0.0",
+    "primevue": "^2.10.1",
+    "uuid": "^8.3.2",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.7.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.12",
+    "sass-loader": "^10.1.1"
+  }
+}

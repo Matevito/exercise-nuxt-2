@@ -1,0 +1,8 @@
+.initial-transition-enter-active,
+.initial-transition-leave-active {
+  transition: opacity 0.5s;
+}
+.initial-transition-enter,
+.initial-transition-leave-active {
+  opacity: 0;
+}

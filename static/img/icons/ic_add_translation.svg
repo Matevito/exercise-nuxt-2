@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="41" viewBox="0 0 45 41">
+  <defs>
+    <clipPath id="clip-ic_add_translation">
+      <rect width="45" height="41"/>
+    </clipPath>
+  </defs>
+  <g id="ic_add_translation" clip-path="url(#clip-ic_add_translation)">
+    <g id="Grupo_25057" data-name="Grupo 25057" transform="translate(-130.871 -132.872)">
+      <g id="Grupo_25059" data-name="Grupo 25059" transform="translate(136.533 136.533)">
+        <path id="Trazado_101509" data-name="Trazado 101509" d="M167.4,150.566H156.178V139.34a2.807,2.807,0,1,0-5.613,0v11.226H139.34a2.806,2.806,0,1,0,0,5.613h11.226V167.4a2.806,2.806,0,1,0,5.613,0V156.178H167.4a2.806,2.806,0,1,0,0-5.613Z" transform="translate(-136.533 -136.533)" fill="#184da2"/>
+      </g>
+    </g>
+  </g>
+</svg>
